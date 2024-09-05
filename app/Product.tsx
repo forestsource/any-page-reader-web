@@ -1,11 +1,14 @@
 import React from 'react';
 import Image from 'next/image';
+import nextConfig from "../next.config.mjs";
+
+const BASE_PATH = nextConfig.basePath || "";
 
 const Product = () => (
     <div className="max-w-2xl mx-auto p-4">
         <div className="flex gap-2.5">
-            <Image src="/screen1.png" alt="商品画像1" width={500} height={500} className="rounded-lg shadow-lg" />
-            <Image src="/screen2.png" alt="商品画像2" width={472} height={592} className="rounded-lg shadow-lg object-contain" />
+            <Image src={`${BASE_PATH}/screen1.png`} alt="商品画像1" width={500} height={500} className="rounded-lg shadow-lg" />
+            <Image src={`${BASE_PATH}/screen2.png`} alt="商品画像2" width={472} height={592} className="rounded-lg shadow-lg object-contain" />
         </div>
         <p className="text-lg mt-2">Any Page Reader はフリーのソフトフェアです。様々なテキスト音声かソリューションと連携を行い、webページを音声化して聞くことができます。</p>
         <div className="flex space-x-4 mt-4">
