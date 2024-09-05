@@ -15,13 +15,13 @@ const PrivacyPolicy = () => (
                 <strong>Account</strong> means a unique account created for You to access our Service or parts of our Service.
             </li>
             <li className="mb-2">
-                <strong>Affiliate</strong> means an entity that controls, is controlled by or is under common control with a party, where &quot;control&quot; means ownership of 50% or more of the shares, equity interest or other securities entitled to vote for election of directors or other managing authority.
+                <strong>Affiliate</strong> means an entity that controls, is controlled by or is under common control with a party, where control means ownership of 50% or more of the shares, equity interest or other securities entitled to vote for election of directors or other managing authority.
             </li>
             <li className="mb-2">
                 <strong>Application</strong> refers to chrome extention, the software program provided by the Company.
             </li>
             <li className="mb-2">
-                <strong>Company</strong> (referred to as either &quot;the Company&quot;, &quot;We&quot;, &quot;Us&quot; or &quot;Our&quot; in this Agreement) refers to chrome extention.
+                <strong>Company</strong> (referred to as either the Company, We, Us or Our in this Agreement) refers to chrome extention.
             </li>
             <li className="mb-2">
                 <strong>Country</strong> refers to:  Japan
