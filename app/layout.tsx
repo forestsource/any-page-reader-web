@@ -7,6 +7,9 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Any Page Reader",
   description: "Transform every web page into an immersive audio experience, available to you anytime.",
+  verification: {
+    google: "GF-N1i1OkVRz_fxwdFozd29Fd5JT8kNJz32tyortVlM",
+  }
 };
 
 export default function RootLayout({
